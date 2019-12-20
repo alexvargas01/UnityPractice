@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ba665a99a2e492e9c039e7a84378ee, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: "You wake up in a strange room, you see a flaming torch that barely lights
+    up the place\u2026\nIt is dark, you see some stairs leading to the basement on
+    one side and some leading to the second floor on the other.\nWhich stairs do you
+    take?\n\nMake your decision...\n1.- Go Up \n2.- Go Down"
+  nextStates:
+  - {fileID: 11400000, guid: 977ef4c5ea7044b1d8ab4b90dcabd070, type: 2}
+  - {fileID: 11400000, guid: c6141770b21514978a1499f03d8f3daa, type: 2}
