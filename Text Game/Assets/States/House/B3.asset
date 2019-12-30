@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ba665a99a2e492e9c039e7a84378ee, type: 3}
+  m_Name: B3
+  m_EditorClassIdentifier: 
+  storyText: 'B3. Closet
+
+    Inside you see a small door, you open it and there are some stairs
+
+
+    1.- Go up the stairs
+
+
+    2.- Get out of the closet'
+  nextStates:
+  - {fileID: 11400000, guid: 3588f746b5e934c5995686f5dfd6ef9a, type: 2}
+  - {fileID: 11400000, guid: e81ec403349d641ae9e93ed8aa118c26, type: 2}
